@@ -12,5 +12,5 @@ mvn -Pnative package spring-boot:process-aot spring-boot:build-image
 
 ##### Repositorio Oficial
 
-https://github.com/joaopmerlin/rinha-de-backend-2024-q1
+https://github.com/joaopmerlin/rinha-de-backend-2024-q1-java
 https://www.linkedin.com/in/jo%C3%A3o-paulo-merlin-678742b2/
