@@ -30,7 +30,7 @@ services:
       resources:
         limits:
           cpus: "0.375"
-          memory: "120MB"
+          memory: "100MB"
 
   backend-2:
     image: joaopmerlin/rinha-de-backend-2024-q1:0.0.1-SNAPSHOT
@@ -44,7 +44,7 @@ services:
       resources:
         limits:
           cpus: "0.375"
-          memory: "120MB"
+          memory: "100MB"
 
   envoy:
     image: envoyproxy/envoy:v1.29.1
@@ -56,7 +56,7 @@ services:
       resources:
         limits:
           cpus: "0.375"
-          memory: "80MB"
+          memory: "50MB"
     depends_on:
       - backend-1
       - backend-2
